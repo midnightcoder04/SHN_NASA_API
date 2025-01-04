@@ -4,8 +4,8 @@ document.getElementById('imageForm').addEventListener('submit', async (e) => {
     const longitude = document.getElementById('longitude').value;
     const latitude = document.getElementById('latitude').value;
     const date = document.getElementById('date').value;
-    const apiKey = 'Your API KEY HERE';
-
+    const apiKey = 'Your API KEY HERE'; // Replace with your API key plz
+ 
     const url = `https://api.nasa.gov/planetary/earth/imagery?lon=${longitude}&lat=${latitude}&date=${date}&dim=0.05&api_key=${apiKey}`;
     const messageElement = document.getElementById('message');
     const imageElement = document.getElementById('image');
@@ -19,7 +19,6 @@ document.getElementById('imageForm').addEventListener('submit', async (e) => {
           throw new Error('Image not available for the given date and location.');
         }
         
-        // Response is an image, not JSON, so we display it directly
         const imageBlob = await response.blob();
         const imageUrl = URL.createObjectURL(imageBlob);
         
