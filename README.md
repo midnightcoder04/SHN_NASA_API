@@ -6,18 +6,19 @@
 ![nasanotion](https://github.com/user-attachments/assets/f5e65cb8-48c0-4dc0-b757-bf3569f32d2f)
 
 # Project Name
-Long Description about project. This project do that. This project is awesome...
+This project just fetches satellite images of a location on a date , captured by NASA. This project is not awesome as expected due to the quality of the images and inability to choose time...
 ## Team members
-1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
-2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)
-## Link to product walkthrough
-[link to video](Link Here)
+1. [Name 1](https://github.com/midnightcoder04)
+2. [Name 2](https://github.com/SmrithiIsTired)
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+Fetches data from Nasa API and shows on Page
 ## Libraries used
-Library Name - Version
+None
 ## How to configure
-Instructions for setting up project
+1. Get an API key from [here](https://api.nasa.gov)
+2. Replace it in the script.js on line 7
 ## How to Run
 Instructions for running
+1. Fork repo
+2. Configure by following steps above
+3. Run using live server extension or by opening file on browser

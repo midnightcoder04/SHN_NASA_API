@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA Landsat Imagery Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>NASA Landsat Imagery Viewer</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="form-container">
+      <form id="imageForm">
+        <input type="text" id="longitude" placeholder="Enter Longitude" required>
+        <input type="text" id="latitude" placeholder="Enter Latitude" required>
+        <input type="date" id="date" required>
+        <button type="submit">Fetch Image</button>
+      </form>
+    </div>
+
+    <div id="output">   
+      <p id="message">Fetch Image.. Sample longitude: -95.33 ,latitude: 29.78 </p>
+      <img id="image" alt="Landsat Image" style="display: none;">
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 NASA Landsat Imagery Viewer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
