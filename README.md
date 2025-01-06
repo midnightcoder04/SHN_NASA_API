@@ -24,4 +24,3 @@ Instructions for running offline
 1. Fork repo
 2. Configure by following steps above
 3. Run using live server extension or by opening file on browser
-   Online: Visit [here](https://shn-nasa-api.vercel.app/)
