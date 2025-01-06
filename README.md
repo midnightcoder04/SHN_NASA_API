@@ -11,7 +11,7 @@ This project just fetches satellite images of a location on a date , captured by
 1. [Smrithi](https://github.com/SmrithiIsTired)
 2. [midnightcoder04](https://github.com/midnightcoder04)
 ## How it Works ?
-Fetches data from Nasa API and shows on Page
+Fetches data from Nasa API (in our case, data is an image file) and shows on Page
 ## Live Demo
 [Here](https://shn-nasa-api.vercel.app/)
 ## Libraries used
@@ -24,5 +24,4 @@ Instructions for running offline
 1. Fork repo
 2. Configure by following steps above
 3. Run using live server extension or by opening file on browser
-Instructions for running online
-1. Visit [Here](https://shn-nasa-api.vercel.app/)
+Visit [Here](https://shn-nasa-api.vercel.app/)
