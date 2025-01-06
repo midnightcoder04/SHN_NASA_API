@@ -13,7 +13,7 @@ This project just fetches satellite images of a location on a date , captured by
 ## How it Works ?
 Fetches data from Nasa API (in our case, data is an image file) and shows on Page
 ## Live Demo
-[Here](https://shn-nasa-api.vercel.app/)
+Visit [Here](https://shn-nasa-api.vercel.app/)
 ## Libraries used
 None
 ## How to configure
@@ -24,4 +24,4 @@ Instructions for running offline
 1. Fork repo
 2. Configure by following steps above
 3. Run using live server extension or by opening file on browser
-Visit [Here](https://shn-nasa-api.vercel.app/)
+   Online: Visit [here](https://shn-nasa-api.vercel.app/)
