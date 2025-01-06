@@ -4,7 +4,7 @@ document.getElementById('imageForm').addEventListener('submit', async (e) => {
     const longitude = document.getElementById('longitude').value;
     const latitude = document.getElementById('latitude').value;
     const date = document.getElementById('date').value;
-    const apiKey = 'Your API KEY HERE'; // Replace with your API key plz
+    const apiKey = process.env.NASA_API_KEY; // Replace with your API key plz
  
     const url = `https://api.nasa.gov/planetary/earth/imagery?lon=${longitude}&lat=${latitude}&date=${date}&dim=0.05&api_key=${apiKey}`;
     const messageElement = document.getElementById('message');
